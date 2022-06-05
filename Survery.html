@@ -1,9 +1,10 @@
 <html>
-  <head>
+
+<head>
+  <link rel="stylesheet" href="styles.css" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>survey form</title>
-  <link rel="stylesheet" href="survey.css" />
 </head>
 
 <body>
@@ -18,16 +19,16 @@
 
     <form id="survey-form">
       <div class="form-div">
-        <label id="name" for="name">Name</label><br>
+        <label id="name-label" for="name">Name</label><br>
         <input type="text" name="name-lable" id="name" class="input-lable" placeholder="Enter your name" required />
       </div>
       <div class="form-div">
-        <label id="email" for="email">Email</label><br>
-        <input type="email" name="email" id="email-lable" class="input-lable" placeholder="Enter your Email" required />
+        <label id="email-label" for="email">Email</label><br>
+        <input type="email" name="email" id="email" class="input-lable" placeholder="Enter your Email" required />
       </div>
       <div class="form-div">
-        <label id="number" for="number">Age(optional)</label><br>
-        <input type="number" name="age" id="number-lable" min="18" max="99" class="input-lable" placeholder="Age" />
+        <label id="number-label" for="number">Age(optional)</label><br>
+        <input type="number" name="age" id="number" min="18" max="99" class="input-lable" placeholder="Age" />
       </div>
 
       <div class="form-div">
@@ -109,5 +110,6 @@
   </div>
 
 </body>
-  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 </html>
